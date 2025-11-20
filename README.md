@@ -1,4 +1,4 @@
-# Web about Minecrafr Modpacks
+# Web about Minecraft Modpacks
 These are my Visual Studio Code archives that contains my web.
 
 ## Description
