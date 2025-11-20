@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modpacks de MineCraft por Alejandro Ruiz Díaz 1ºDAM</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <button id="menuButton" class="menu-button" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+        <div class="header-logo">
+            <img src="img/headerSwordLogo.png" alt="Logo" />
+        </div>
+        <div class="header-inner">
+            <h1>Información sobre los Modpacks más solicitados</h1>
+            <p>Bienvenido a la mejor página de reviews de Modpacks</p>
+        </div>
+    </header>
+
+    <aside id="sidebar" class="sidebar" aria-hidden="true" aria-label="Barra lateral de opciones">
+        <button id="closeSidebar" class="sidebar-close" aria-label="Cerrar menú">&times;</button>
+        <nav class="sidebar-nav" aria-label="Navegación">
+            <a href="index.html">Inicio - Modpacks</a>
+            <a href="management.html">Comunidad ¡Deja tu opinión!</a>
+            <a href="parallax.html">Experiencia Visual</a>
+        </nav>
+    </aside>
+    <div id="sidebarOverlay" class="sidebar-overlay" hidden></div>
+
+    <main>
+        <div class="container" id="container1">
+            <img src="img/BetterMC3.png" alt="Imagen 1">
+            <p class="info">Better MC (Forge/Fabric)</p>
+        </div>
+
+        <div class="container" id="container2">
+            <img src="img/RLCraft.png" alt="Imagen 2">
+            <p class="info">RLCraft (Forge/Fabric)</p>
+        </div>
+
+        <div class="container" id="container3">
+            <img src="img/cobbleverseIMG.png" alt="Imagen 3">
+            <p class="info">Cobbleverse (Forge/Fabric)</p>
+        </div>
+
+        <div class="container" id="container4">
+            <img src="img/lingangooIMJ.gif" alt="Imagen 4">
+            <p class="info">Linggango (Forge/Fabric)</p>
+        </div>
+
+        <div class="container" id="container5">
+            <img src="img/PriminenceIMG.png" alt="Imagen 5">
+            <p class="info">Prominence II: Hasturian Era (Forge/Fabric)</p>
+        </div>
+
+        <div class="container" id="container6">
+            <img src="img/BeynodDepthsIMG.png" alt="Imagen 6">
+            <p class="info">Beyond Depth (Forge/Fabric)</p>
+        </div>
+
+        <div class="text-container" id="text-container">
+            <div class="text-inner">
+                <h2>¿Qué es un Modpack?</h2>
+                <p>Un Modpack en Minecraft es, básicamente, un combo de modificaciones que transforman el juego original
+                    en una experiencia completamente nueva, como si el propio Minecraft hubiera pasado por una cirugía
+                    creativa. Imagina que en lugar de instalar cada mod por separado (arriesgándote a que tu mundo
+                    explote por una simple incompatibilidad), alguien ya hizo el trabajo duro por ti, los juntó, los
+                    ajustó y los dejó listos para que simplemente presiones “Jugar”. Los modpacks pueden convertir tu
+                    tranquilo refugio de bloques en un universo de ciencia ficción con máquinas que minan por ti, en una
+                    aventura mágica con hechizos y dragones, o incluso en una pesadilla infernal donde hasta las flores
+                    intentan eliminarte. Lo divertido es que hay modpacks para todos los gustos: desde los que buscan
+                    realismo con hambre, sed y temperatura corporal, hasta los que simplemente quieren lanzar rayos
+                    láser desde un casco de diamante. En resumen, un modpack es como el multiverso de Minecraft: una
+                    puerta a infinitas versiones del mismo juego, todas igual de cuadradas… pero mucho más locas.</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="videoTitle">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <div class="modal-body">
+                <iframe id="videoFrame" width="400" height="225" title="Video player" allow="fullscreen"></iframe>
+                <div class="modal-text">
+                    <h2 id="videoTitle">Hola</h2>
+                    <p id="videoDescription"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p class="footer-placeholder">Página web creada por Alejandro Ruiz Díaz 1ºDAM</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
